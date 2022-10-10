@@ -1,0 +1,19 @@
+:root{
+/* color */
+
+    /* darks */
+    --dark-primary:#111;
+
+    /* whites */
+    --white-primary:rgba(250, 250, 250, 0.9);
+
+    /* whites */
+    --teal-primary:#20c997;
+
+/* end colors */
+
+    /* fonts */
+
+    --font-primary:"Poppins", sans-serif;
+
+}

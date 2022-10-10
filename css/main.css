@@ -1,0 +1,89 @@
+@import "root.css";
+
+*{
+    box-sizing: border-box;
+    color:var(--white-primary);
+    font-family: var(--font-primary);
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav{
+   max-width: 100%;
+   background: var(--dark-primary); 
+}
+
+
+/* start blocks flex */
+
+.nav__block, .nav__name,.nav__primary, .nav__item, .nav__socials, .nav__socials-item{
+    display: flex;
+}
+
+
+
+/* End blocks flex */
+
+
+.nav__block{
+    flex-direction: row;
+}
+
+
+.nav__name{
+    width: 15%;
+    align-items: center;
+    margin: 15px;
+}
+
+
+.nav__link{
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+.nav__link--logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.nav__primary{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav__item{
+    list-style: none;
+}
+
+
+.nav__item-1{
+    margin: 10px 20px;
+}
+
+
+.nav__link--item{
+    font-weight: 500;
+}
+
+.nav__link--item:hover{
+    color: var(--teal-primary);
+}
+
+.nav__socials{
+    width: 15%;
+    justify-content:end;
+    align-items:center;
+}
+
+
+.nav__item-2{
+    margin: 8px;
+}
+
+
