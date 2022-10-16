@@ -38,21 +38,186 @@
     margin: 130px 80px;
 }
 
-.about{
+.data-content{
     background: #7299FE;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-title{
+    width: 100%;
+    text-align: center;
 }
 
 .title{
-    color: #1D06A7;
+   
     font-size: 36px;
     display: flex;
     justify-content: center;
-    margin:30px 0;
+    margin-top: 30px;
+}
+
+.first-title{
+    color: #1D06A7;
+}
+.second-title{
+    color:#26CC4B;
+}
+.tree-title{
+    color:#ADFF28;
+}
+.four-title{
+    color: #FF1B1B;
+}
+
+.fisrt-content{
+    background: #7299FE;
+
+}
+.second-content{
+    background: #9022FF;
+}
+
+.tree-content{
+    background: #FFD233;
+}
+
+.four-content{
+    background: #3F4E62;
+}
+
+.five-content{
+    background: #1687A0;
+}
+
+.content-description{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+}
+
+.df-direction-column{
+    flex-direction: column;
+}
+.df-direction-row{
+    flex-direction: row;
 }
 
 .descripcion{
+    font-size: 18px;
     color: white;
-    margin: 0 20px;
     text-justify: distribute;
+    margin-bottom: 30px;
+}
+
+.button{
+    padding: 15px 25px;
+    background: rgb(240, 25, 194);
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 120px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+.element-skill{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.title-skill{
+    color: white;
+
+}
+
+.progress-skill{
+    width: 420px;
+    background: rgb(255, 255, 255);
+    height: 20px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.porcent-prrogress{
+    margin-top: -20px;
+    position: absolute;
+    background:  #57EFF9;
+    height: 20px;
+    border-radius: 20px;
+}
+
+
+.porcent-prrogress-html{
+    width: 300px;
+}
+.porcent-prrogress-js{
+    width: 350px;
+}
+.porcent-prrogress-flexbox{
+    width: 250px;
+}
+.porcent-prrogress-css{
+    width: 50px;
+}
+.porcent-prrogress-vue{
+    width: 400px;
+}
+.porcent-prrogress-cssgrid{
+    width: 100px;
+}
+.jc-space-between{
+    padding: 0 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-galery{
+    margin-bottom: 10px;
+}
+
+.df-nowrap{
+    padding: 0 64px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.img-clientes{
+    margin: 5px;
+}
+
+.formulario{
+    margin: 20px;
+    text-align: center;
+}
+
+.input {
+    border: 1px solid grey;
+    height: 60px;
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.textarea{
+    width: 825px;
+    height: 100px;
+}
+
+.button-send{
+    padding: 20px 40PX;
+    color: white;
+    background: #233451;
+    border: none;
 }
