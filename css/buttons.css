@@ -1,0 +1,12 @@
+.button{
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 1px solid var(--teal-primary);
+    border-radius: 50px;
+}
+
+.button:hover{
+    background:var(--teal-primary);
+    transition: all 0.7s;
+    font-weight: 600;
+}
