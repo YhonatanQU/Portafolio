@@ -3,10 +3,12 @@
     padding: 15px 30px;
     border: 1px solid var(--teal-primary);
     border-radius: 50px;
+    box-sizing: border-box;
 }
 
 .button:hover{
     background:var(--teal-primary);
     transition: all 0.7s;
     font-weight: 600;
+    padding: 15px 33px;
 }
