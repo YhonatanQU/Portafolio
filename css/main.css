@@ -9,7 +9,6 @@
     padding: 0;
 }
 
-
 .nav{
    width: 100%;
    position: fixed;
@@ -32,42 +31,37 @@
     flex-direction: row;
 }
 
-
 .nav__name{
     width: 15%;
     align-items: center;
     margin: 15px;
 }
 
-
 .nav__link{
     text-decoration: none;
     font-size: 1rem;
 }
-
 
 .nav__link--logo{
     font-size: 26px;
     font-weight: bold;
 }
 
-
 .nav__primary{
     width: 70%;
     align-items: center;
     justify-content: center;
-}
+    visibility: hidden;
 
+}
 
 .nav__item{
     list-style: none;
 }
 
-
 .nav__item-1{
     margin: 10px 20px;
 }
-
 
 .nav__link--item{
     font-size: 16px;
@@ -80,11 +74,11 @@
 }
 
 .nav__socials{
-    width: 15%;
+    width: 10%;
     justify-content:end;
     align-items:center;
+    margin-right: 15px;
 }
-
 
 .nav__item-2{
     margin: 8px;
@@ -102,7 +96,7 @@
 .container-main{
     width:100%;
     height: 100vh;
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(4, 32, 47, 0.65);
 
 }
 
@@ -115,10 +109,10 @@
     justify-content: center;
 }
 
-
 .container__welcome, .container__jobs{
     margin: 10px;
 }
+
 .font__wc{
     font-size: 25px;
     font-weight: 600;
@@ -129,14 +123,21 @@
     font-weight: 600;   
 }
 
-
 .font__addres{
     font-size: 20px;
     font-weight: 600;   
 }
 
-
 .container__button{
     margin: 50px;
 }
 
+
+
+.bottom{
+    font-size: 20px;
+}
+
+@media (max-width:500px){
+
+}
